@@ -1,0 +1,184 @@
+/* ====== Estilos del tablero Caza-Ganadores ====== */
+:root {
+  --verde: #16a34a;
+  --verde-bg: #dcfce7;
+  --amarillo: #d97706;
+  --amarillo-bg: #fef3c7;
+  --rojo: #dc2626;
+  --rojo-bg: #fee2e2;
+  --azul: #4f46e5;
+  --gris: #64748b;
+  --borde: #e2e8f0;
+  --fondo: #f8fafc;
+  --tinta: #0f172a;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: var(--fondo);
+  color: var(--tinta);
+  padding: 0 0 60px;
+}
+
+/* ---- Barra superior ---- */
+.topbar {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: #fff;
+  padding: 22px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  box-shadow: 0 4px 14px rgba(79, 70, 229, 0.25);
+}
+.brand { display: flex; align-items: center; gap: 14px; }
+.logo { font-size: 40px; }
+.topbar h1 { font-size: 24px; font-weight: 800; letter-spacing: -0.5px; }
+.sub { font-size: 13px; opacity: 0.9; margin-top: 2px; }
+
+.search { display: flex; gap: 8px; }
+.search input {
+  padding: 11px 16px;
+  border: none;
+  border-radius: 10px;
+  width: 340px;
+  font-size: 14px;
+  outline: none;
+}
+.search button {
+  padding: 11px 18px;
+  border: none;
+  border-radius: 10px;
+  background: #fbbf24;
+  color: #422006;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.1s, background 0.2s;
+}
+.search button:hover { background: #f59e0b; transform: translateY(-1px); }
+#linkConexiones {
+  display: inline-flex; align-items: center; padding: 11px 16px; border-radius: 10px;
+  background: rgba(255, 255, 255, 0.18); color: #fff; text-decoration: none;
+  font-weight: 700; font-size: 14px; white-space: nowrap;
+}
+#linkConexiones:hover { background: rgba(255, 255, 255, 0.3); }
+
+/* ---- Embudo ---- */
+.embudo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  padding: 26px 16px 8px;
+}
+.paso {
+  background: #fff;
+  border: 1px solid var(--borde);
+  border-radius: 14px;
+  padding: 14px 20px;
+  text-align: center;
+  min-width: 150px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+.paso .pico { font-size: 26px; display: block; }
+.paso b { display: block; font-size: 14px; margin-top: 4px; }
+.paso small { color: var(--gris); font-size: 11px; }
+.flecha { font-size: 24px; color: var(--azul); font-weight: bold; }
+
+/* ---- Resumen (tarjetas) ---- */
+.resumen {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 22px 16px 10px;
+}
+.card {
+  border-radius: 16px;
+  padding: 18px 28px;
+  text-align: center;
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: 600;
+  font-size: 13px;
+  border: 2px solid transparent;
+}
+.card .num { font-size: 34px; font-weight: 800; }
+.card.verde { background: var(--verde-bg); color: var(--verde); border-color: var(--verde); }
+.card.amarillo { background: var(--amarillo-bg); color: var(--amarillo); border-color: var(--amarillo); }
+.card.rojo { background: var(--rojo-bg); color: var(--rojo); border-color: var(--rojo); }
+.card.total { background: #fff; color: var(--tinta); border-color: var(--borde); }
+
+/* ---- Aviso ---- */
+.aviso {
+  max-width: 1100px;
+  margin: 6px auto 0;
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  color: #92400e;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+/* ---- Tabla ---- */
+.tabla-wrap {
+  max-width: 1100px;
+  margin: 22px auto 0;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+.tabla { width: 100%; border-collapse: collapse; }
+.tabla thead th {
+  background: #f1f5f9;
+  text-align: left;
+  padding: 14px 16px;
+  font-size: 12px;
+  color: var(--gris);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  border-bottom: 2px solid var(--borde);
+}
+.tabla thead th small { font-weight: 400; text-transform: none; letter-spacing: 0; }
+.tabla tbody td { padding: 14px 16px; border-bottom: 1px solid var(--borde); font-size: 14px; vertical-align: middle; }
+.tabla tbody tr:hover { background: #fafbff; }
+.cargando { text-align: center; color: var(--gris); padding: 40px !important; }
+
+.prod { display: flex; align-items: center; gap: 12px; }
+.prod img { width: 48px; height: 48px; border-radius: 10px; object-fit: cover; }
+.prod .pinfo b { display: block; font-size: 14px; }
+.prod .pinfo small { color: var(--gris); font-size: 12px; }
+
+/* Barras de demanda */
+.barra { background: #e2e8f0; border-radius: 6px; height: 8px; width: 90px; overflow: hidden; margin-top: 4px; }
+.barra > span { display: block; height: 100%; background: var(--azul); }
+.demanda-num { font-weight: 700; font-size: 13px; }
+
+/* Pildoras */
+.pill { padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 700; display: inline-block; }
+.pill.si { background: var(--rojo-bg); color: var(--rojo); }
+.pill.no { background: var(--verde-bg); color: var(--verde); }
+.metric { font-weight: 700; }
+.metric.bajo { color: var(--verde); }
+.metric.medio { color: var(--amarillo); }
+.metric.alto { color: var(--rojo); }
+
+/* Puntaje */
+.puntaje { font-size: 20px; font-weight: 800; }
+
+/* Veredicto */
+.veredicto { padding: 6px 12px; border-radius: 999px; font-weight: 700; font-size: 12px; white-space: nowrap; }
+.veredicto.verde { background: var(--verde-bg); color: var(--verde); }
+.veredicto.amarillo { background: var(--amarillo-bg); color: var(--amarillo); }
+.veredicto.rojo { background: var(--rojo-bg); color: var(--rojo); }
+
+.pie { text-align: center; color: var(--gris); font-size: 12px; margin-top: 30px; }

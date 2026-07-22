@@ -1,0 +1,17 @@
+# Llaves y tokens privados (NUNCA compartir)
+config/credenciales.json
+config/ml-tokens.json
+
+# Dependencias y temporales
+node_modules/
+*.log
+
+# Otros proyectos: tienen su PROPIO repo, no van anidados en este
+bot-cod/
+sistema-rentabilidad/
+
+# Config local de Claude Code (puede traer settings.local con secretos)
+.claude/
+
+# Capturas de diagnostico
+*.png

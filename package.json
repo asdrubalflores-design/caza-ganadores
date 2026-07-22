@@ -1,0 +1,16 @@
+{
+  "name": "caza-ganadores",
+  "version": "0.1.0",
+  "description": "Buscador de productos ganadores para dropshipping de pago contra entrega en Mexico. Cruza demanda de Mercado Libre con saturacion en Dropi, Meta Ad Library y Facebook Marketplace.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.60.0"
+  }
+}

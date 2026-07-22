@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🔌 Conexiones · Caza-Ganadores</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .wrap { max-width: 760px; margin: 24px auto; padding: 0 16px; }
+      .fuente {
+        background: #fff; border: 1px solid var(--borde); border-radius: 16px;
+        padding: 22px 24px; margin-bottom: 18px; box-shadow: 0 2px 10px rgba(0,0,0,.04);
+      }
+      .fuente h2 { font-size: 18px; display: flex; align-items: center; gap: 10px; }
+      .estado-pill { font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 999px; margin-left: auto; }
+      .estado-pill.on { background: var(--verde-bg); color: var(--verde); }
+      .estado-pill.off { background: var(--rojo-bg); color: var(--rojo); }
+      .estado-pill.wait { background: var(--amarillo-bg); color: var(--amarillo); }
+      .paso-conn { border-left: 3px solid var(--borde); padding: 8px 0 8px 16px; margin: 14px 0; }
+      .paso-conn b { display: block; margin-bottom: 8px; }
+      label { display: block; font-size: 13px; color: var(--gris); margin: 8px 0 4px; }
+      input[type="text"], textarea {
+        width: 100%; padding: 11px 14px; border: 1px solid var(--borde);
+        border-radius: 10px; font-size: 14px; font-family: inherit;
+      }
+      textarea { min-height: 70px; resize: vertical; }
+      .btn {
+        margin-top: 12px; padding: 11px 18px; border: none; border-radius: 10px;
+        background: var(--azul); color: #fff; font-weight: 700; font-size: 14px; cursor: pointer;
+      }
+      .btn:hover { filter: brightness(1.08); }
+      .btn.sec { background: #fbbf24; color: #422006; }
+      .btn:disabled { opacity: .45; cursor: not-allowed; }
+      .msg { margin-top: 10px; font-size: 13px; padding: 10px 14px; border-radius: 10px; display: none; }
+      .msg.ok { background: var(--verde-bg); color: var(--verde); display: block; }
+      .msg.err { background: var(--rojo-bg); color: var(--rojo); display: block; }
+      .nota { background: #fffbeb; border: 1px solid #fde68a; color: #92400e; padding: 10px 14px; border-radius: 10px; font-size: 13px; margin-top: 10px; }
+      .volver { color: var(--azul); text-decoration: none; font-weight: 600; font-size: 14px; }
+      .soon { opacity: .6; }
+    </style>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="logo">🔌</span>
+        <div>
+          <h1>Conexiones</h1>
+          <p class="sub">Conecta las fuentes de datos reales</p>
+        </div>
+      </div>
+      <a class="volver" href="/">← Volver al tablero</a>
+    </header>
+
+    <div class="wrap">
+      <!-- ===================== MERCADO LIBRE ===================== -->
+      <div class="fuente">
+        <h2>📈 Mercado Libre <span id="estadoML" class="estado-pill off">Desconectado</span></h2>
+        <p style="color: var(--gris); font-size: 14px; margin-top: 6px;">
+          Mide la <b>demanda</b>: qué productos compra la gente en México.
+        </p>
+
+        <!-- Paso 1: llaves -->
+        <div class="paso-conn">
+          <b>Paso 1 · Pega tus llaves de desarrollador</b>
+          <label>App ID (número público)</label>
+          <input id="appId" type="text" placeholder="Ej. 1234567890123456" />
+          <label>Client Secret (tu contraseña secreta)</label>
+          <input id="clientSecret" type="text" placeholder="Se guarda solo en tu computadora" />
+          <button class="btn" id="btnGuardarLlaves">💾 Guardar llaves</button>
+          <div class="nota">
+            🔒 Tus llaves se guardan <b>localmente</b> en <code>config/credenciales.json</code>.
+            Nunca salen de tu computadora.
+          </div>
+        </div>
+
+        <!-- Paso 2: permiso -->
+        <div class="paso-conn">
+          <b>Paso 2 · Da permiso (una sola vez)</b>
+          <button class="btn sec" id="btnAbrirPermiso" disabled>🔓 Abrir Mercado Libre para autorizar</button>
+          <div class="nota" id="notaPermiso" style="display:none">
+            👉 Se abrirá Mercado Libre. Inicia sesión y presiona <b>Autorizar</b>.
+            Después la página se verá "rota" o "no segura" — <b>eso es normal</b>.
+            Copia la <b>dirección completa</b> de la barra del navegador y pégala abajo. 👇
+          </div>
+        </div>
+
+        <!-- Paso 3: pegar codigo -->
+        <div class="paso-conn">
+          <b>Paso 3 · Pega aquí la dirección que te quedó</b>
+          <textarea id="codigoPegado" placeholder="Pega aquí: https://localhost:3000/callback?code=TG-xxxxx..."></textarea>
+          <button class="btn" id="btnConectar" disabled>✅ Conectar</button>
+          <div class="msg" id="msgML"></div>
+        </div>
+      </div>
+
+      <!-- ===================== META AD LIBRARY ===================== -->
+      <div class="fuente">
+        <h2>📢 Meta Ad Library <span id="estadoMeta" class="estado-pill off">Sin datos aún</span></h2>
+        <p style="color: var(--gris); font-size: 14px; margin-top: 6px;">
+          Cuenta los <b>anuncios activos</b> de cada producto en México (frase exacta).
+        </p>
+        <div class="paso-conn">
+          <b>Actualizar datos de Meta</b>
+          <p style="color: var(--gris); font-size: 13px; margin-bottom: 8px;">
+            El robot revisa los productos <b>uno por uno, con pausas</b> (≈10 seg c/u) para
+            que Meta no lo bloquee. Puedes cerrar esta pestaña: sigue trabajando solo.
+          </p>
+          <button class="btn" id="btnActualizarMeta">🤖 Actualizar Meta (despacio)</button>
+          <div class="barra" id="barraMetaWrap" style="width:100%; height:14px; margin-top:12px; display:none">
+            <span id="barraMeta" style="width:0%"></span>
+          </div>
+          <div class="msg" id="msgMeta"></div>
+        </div>
+      </div>
+      <div class="fuente soon">
+        <h2>🛒 Facebook Marketplace <span class="estado-pill wait">En construcción</span></h2>
+        <p style="color: var(--gris); font-size: 14px;">Cuántos lo venden en México.</p>
+      </div>
+      <div class="fuente soon">
+        <h2>🚫 Dropi México <span class="estado-pill wait">En construcción</span></h2>
+        <p style="color: var(--gris); font-size: 14px;">Qué productos ya están en el catálogo (saturados).</p>
+      </div>
+    </div>
+
+    <script src="conectar.js"></script>
+  </body>
+</html>

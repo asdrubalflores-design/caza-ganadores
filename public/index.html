@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🏆 Caza-Ganadores · Dropshipping México</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="logo">🏆</span>
+        <div>
+          <h1>Caza-Ganadores</h1>
+          <p class="sub">Productos ganadores para pago contra entrega en México</p>
+        </div>
+      </div>
+      <div class="search">
+        <input id="q" type="text" placeholder="Explorar categoría o palabra (ej. lámpara, masajeador)…" />
+        <button id="btnBuscar">🔍 Buscar</button>
+        <a id="linkConexiones" href="/conectar.html">🔌 Conexiones</a>
+      </div>
+    </header>
+
+    <!-- EL EMBUDO DE 4 FILTROS -->
+    <section class="embudo">
+      <div class="paso"><span class="pico">📈</span><b>1. Demanda</b><small>Mercado Libre</small></div>
+      <div class="flecha">→</div>
+      <div class="paso"><span class="pico">🚫</span><b>2. No en Dropi</b><small>Catálogo Dropi</small></div>
+      <div class="flecha">→</div>
+      <div class="paso"><span class="pico">📢</span><b>3. Pocos anuncios</b><small>Meta Ad Library</small></div>
+      <div class="flecha">→</div>
+      <div class="paso"><span class="pico">🛒</span><b>4. Pocos vendedores</b><small>FB Marketplace</small></div>
+    </section>
+
+    <!-- RESUMEN -->
+    <section class="resumen" id="resumen">
+      <div class="card verde"><span class="num" id="cVerde">–</span><span>🟢 Ganadores</span></div>
+      <div class="card amarillo"><span class="num" id="cAmarillo">–</span><span>🟡 Prometedores</span></div>
+      <div class="card rojo"><span class="num" id="cRojo">–</span><span>🔴 Saturados</span></div>
+      <div class="card total"><span class="num" id="cTotal">–</span><span>Productos analizados</span></div>
+    </section>
+
+    <!-- AVISO DATOS DE EJEMPLO -->
+    <div class="aviso">
+      ⚠️ <b>Modo demostración:</b> estás viendo <b>datos de ejemplo</b>. El siguiente paso es
+      conectar las fuentes reales (Mercado Libre, Meta, Marketplace, Dropi).
+    </div>
+
+    <!-- TABLA DE PRODUCTOS -->
+    <section class="tabla-wrap">
+      <table class="tabla">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>📈 Demanda<br /><small>Mercado Libre</small></th>
+            <th>🚫 ¿En Dropi?</th>
+            <th>📢 Anuncios<br /><small>Meta</small></th>
+            <th>🛒 Vendedores<br /><small>Marketplace</small></th>
+            <th>Puntaje</th>
+            <th>Veredicto</th>
+          </tr>
+        </thead>
+        <tbody id="filas">
+          <tr><td colspan="7" class="cargando">Cargando…</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <footer class="pie">
+      Caza-Ganadores · versión 0.1 · construido paso a paso 🚧
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

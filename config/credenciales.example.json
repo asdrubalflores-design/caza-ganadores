@@ -1,0 +1,6 @@
+{
+  "_comentario": "PLANTILLA. NO escribas tus llaves aqui. Usa la pantalla de Conexiones, que crea automaticamente 'credenciales.json' (privado).",
+  "appId": "TU_APP_ID_AQUI",
+  "clientSecret": "TU_CLIENT_SECRET_AQUI",
+  "redirectUri": "https://localhost:3000/callback"
+}
