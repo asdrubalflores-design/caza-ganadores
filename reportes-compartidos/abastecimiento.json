@@ -1,0 +1,202 @@
+{
+  "generado": "2026-07-29T15:44:17",
+  "stock_export": {
+    "fecha": "2026-07-29T15:36:40",
+    "antiguedad_horas": 0.1
+  },
+  "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
+  "cargado_en_dropi": [
+    {
+      "producto_id": 47820,
+      "nombre": "Camara Triple SafeDrive",
+      "familia": "camara",
+      "unidades": 2
+    },
+    {
+      "producto_id": 44928,
+      "nombre": "Dientes/Polvo (prov. A)",
+      "familia": "dientes",
+      "unidades": 8
+    },
+    {
+      "producto_id": 55146,
+      "nombre": "Dientes/Polvo (prov. B)",
+      "familia": "dientes",
+      "unidades": 0
+    },
+    {
+      "producto_id": 52143,
+      "nombre": "Funda Almohada",
+      "familia": "funda",
+      "unidades": 4
+    },
+    {
+      "producto_id": 48315,
+      "nombre": "Mochila Antiasalto",
+      "familia": "mochila",
+      "unidades": 0
+    }
+  ],
+  "pipeline": [
+    {
+      "rem": 40,
+      "producto_id": 47820,
+      "producto": "camara",
+      "familia": "camara",
+      "unidades_pendientes": 50,
+      "estado": "entregado",
+      "entregado_en_dropi": "2026-07-20",
+      "dias_esperando_carga": 9,
+      "guias": [
+        "JMX600907499175",
+        "JMX600907265363",
+        "JMX600906615035",
+        "JMX600894907063",
+        "JMX600904052796"
+      ]
+    },
+    {
+      "rem": 39,
+      "producto_id": 47820,
+      "producto": "camara",
+      "familia": "camara",
+      "unidades_pendientes": 51,
+      "estado": "entregado",
+      "entregado_en_dropi": "2026-07-22",
+      "dias_esperando_carga": 7,
+      "guias": [
+        "JMX600912608600",
+        "JMX600915941010",
+        "JMX600915992228",
+        "JMX600915931799",
+        "JMX600912380362",
+        "JMX600915344130",
+        "JMX600915269586"
+      ]
+    },
+    {
+      "rem": 41,
+      "producto_id": 47820,
+      "producto": "camara",
+      "familia": "camara",
+      "unidades_pendientes": 53,
+      "estado": "entregado",
+      "entregado_en_dropi": "2026-07-27",
+      "dias_esperando_carga": 2,
+      "guias": [
+        "JMX600907805917",
+        "JMX600910263362",
+        "JMX600909344142",
+        "JMX600917195841",
+        "JMX600915954987",
+        "JMX600915746113",
+        "JMX600913701883"
+      ]
+    },
+    {
+      "rem": 42,
+      "producto_id": 47820,
+      "producto": "camara",
+      "familia": "camara",
+      "unidades_pendientes": 54,
+      "estado": "entregado",
+      "entregado_en_dropi": "2026-07-27",
+      "dias_esperando_carga": 2,
+      "guias": [
+        "JMX600921774780",
+        "JMX600914770469",
+        "JMX600921035698",
+        "JMX600920672614",
+        "JMX600920718211",
+        "JMX600916048537",
+        "JMX600919192599"
+      ]
+    },
+    {
+      "rem": 43,
+      "producto_id": 44928,
+      "producto": "polvo",
+      "familia": "dientes",
+      "unidades_pendientes": 30,
+      "estado": "entregado",
+      "entregado_en_dropi": "2026-07-27",
+      "dias_esperando_carga": 2,
+      "guias": [
+        "JMX600916435957"
+      ]
+    },
+    {
+      "rem": 33,
+      "producto_id": 47820,
+      "producto": "camara",
+      "familia": "camara",
+      "unidades_pendientes": 2,
+      "estado": "en_transito",
+      "entregado_en_dropi": null,
+      "dias_esperando_carga": null,
+      "guias": [
+        "JMX600892104834"
+      ]
+    }
+  ],
+  "discrepancias": [
+    {
+      "rem": 21,
+      "producto": "camara",
+      "enviadas": 10,
+      "cargadas": 9,
+      "faltan": 1,
+      "estado": "faltan_unidades",
+      "entregado_en_dropi": "2026-06-16"
+    },
+    {
+      "rem": 22,
+      "producto": "camara",
+      "enviadas": 7,
+      "cargadas": 4,
+      "faltan": 3,
+      "estado": "faltan_unidades",
+      "entregado_en_dropi": "2026-06-29"
+    },
+    {
+      "rem": 39,
+      "producto": "camara",
+      "enviadas": 51,
+      "cargadas": 0,
+      "faltan": 51,
+      "estado": "no_cargado",
+      "entregado_en_dropi": "2026-07-22"
+    },
+    {
+      "rem": 40,
+      "producto": "camara",
+      "enviadas": 50,
+      "cargadas": 0,
+      "faltan": 50,
+      "estado": "no_cargado",
+      "entregado_en_dropi": "2026-07-20"
+    }
+  ],
+  "totales_por_familia": {
+    "camara": {
+      "cargado": 2,
+      "pipeline": 210,
+      "total_disponible": 212
+    },
+    "dientes": {
+      "cargado": 8,
+      "pipeline": 30,
+      "total_disponible": 38
+    },
+    "funda": {
+      "cargado": 4,
+      "pipeline": 0,
+      "total_disponible": 4
+    },
+    "mochila": {
+      "cargado": 0,
+      "pipeline": 0,
+      "total_disponible": 0
+    }
+  }
+}
