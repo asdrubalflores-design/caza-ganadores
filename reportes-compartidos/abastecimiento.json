@@ -1,8 +1,8 @@
 {
-  "generado": "2026-07-29T15:44:17",
+  "generado": "2026-07-30T09:32:51",
   "stock_export": {
-    "fecha": "2026-07-29T15:36:40",
-    "antiguedad_horas": 0.1
+    "fecha": "2026-07-30T09:02:38",
+    "antiguedad_horas": 0.5
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
   "cargado_en_dropi": [
@@ -46,7 +46,7 @@
       "unidades_pendientes": 50,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-20",
-      "dias_esperando_carga": 9,
+      "dias_esperando_carga": 10,
       "guias": [
         "JMX600907499175",
         "JMX600907265363",
@@ -63,7 +63,7 @@
       "unidades_pendientes": 51,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-22",
-      "dias_esperando_carga": 7,
+      "dias_esperando_carga": 8,
       "guias": [
         "JMX600912608600",
         "JMX600915941010",
@@ -82,7 +82,7 @@
       "unidades_pendientes": 53,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 2,
+      "dias_esperando_carga": 3,
       "guias": [
         "JMX600907805917",
         "JMX600910263362",
@@ -101,7 +101,7 @@
       "unidades_pendientes": 54,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 2,
+      "dias_esperando_carga": 3,
       "guias": [
         "JMX600921774780",
         "JMX600914770469",
@@ -120,7 +120,7 @@
       "unidades_pendientes": 30,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 2,
+      "dias_esperando_carga": 3,
       "guias": [
         "JMX600916435957"
       ]
