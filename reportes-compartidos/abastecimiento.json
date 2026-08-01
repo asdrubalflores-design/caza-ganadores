@@ -1,8 +1,8 @@
 {
-  "generado": "2026-07-31T01:07:16",
+  "generado": "2026-08-01T01:06:43",
   "stock_export": {
     "fecha": "2026-07-30T09:52:51",
-    "antiguedad_horas": 15.2
+    "antiguedad_horas": 39.2
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
   "cargado_en_dropi": [
@@ -46,7 +46,7 @@
       "unidades_pendientes": 50,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-20",
-      "dias_esperando_carga": 11,
+      "dias_esperando_carga": 12,
       "guias": [
         "JMX600907499175",
         "JMX600907265363",
@@ -63,7 +63,7 @@
       "unidades_pendientes": 51,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-22",
-      "dias_esperando_carga": 9,
+      "dias_esperando_carga": 10,
       "guias": [
         "JMX600912608600",
         "JMX600915941010",
@@ -82,7 +82,7 @@
       "unidades_pendientes": 53,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 4,
+      "dias_esperando_carga": 5,
       "guias": [
         "JMX600907805917",
         "JMX600910263362",
@@ -101,7 +101,7 @@
       "unidades_pendientes": 54,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 4,
+      "dias_esperando_carga": 5,
       "guias": [
         "JMX600921774780",
         "JMX600914770469",
@@ -120,7 +120,7 @@
       "unidades_pendientes": 30,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 4,
+      "dias_esperando_carga": 5,
       "guias": [
         "JMX600916435957"
       ]
@@ -133,7 +133,7 @@
       "unidades_pendientes": 2,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-30",
-      "dias_esperando_carga": 1,
+      "dias_esperando_carga": 2,
       "guias": [
         "JMX600928186530"
       ]
@@ -188,6 +188,33 @@
       "faltan": 50,
       "estado": "no_cargado",
       "entregado_en_dropi": "2026-07-20"
+    },
+    {
+      "rem": 41,
+      "producto": "camara",
+      "enviadas": 53,
+      "cargadas": 0,
+      "faltan": 53,
+      "estado": "no_cargado",
+      "entregado_en_dropi": "2026-07-27"
+    },
+    {
+      "rem": 42,
+      "producto": "camara",
+      "enviadas": 54,
+      "cargadas": 0,
+      "faltan": 54,
+      "estado": "no_cargado",
+      "entregado_en_dropi": "2026-07-27"
+    },
+    {
+      "rem": 43,
+      "producto": "polvo",
+      "enviadas": 30,
+      "cargadas": 0,
+      "faltan": 30,
+      "estado": "no_cargado",
+      "entregado_en_dropi": "2026-07-27"
     }
   ],
   "totales_por_familia": {
