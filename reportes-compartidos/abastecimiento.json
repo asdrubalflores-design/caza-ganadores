@@ -1,8 +1,8 @@
 {
-  "generado": "2026-08-01T01:06:43",
+  "generado": "2026-08-02T01:06:03",
   "stock_export": {
-    "fecha": "2026-07-30T09:52:51",
-    "antiguedad_horas": 39.2
+    "fecha": "2026-08-02T01:01:29",
+    "antiguedad_horas": 0.1
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
   "cargado_en_dropi": [
@@ -39,42 +39,6 @@
   ],
   "pipeline": [
     {
-      "rem": 40,
-      "producto_id": 47820,
-      "producto": "camara",
-      "familia": "camara",
-      "unidades_pendientes": 50,
-      "estado": "entregado",
-      "entregado_en_dropi": "2026-07-20",
-      "dias_esperando_carga": 12,
-      "guias": [
-        "JMX600907499175",
-        "JMX600907265363",
-        "JMX600906615035",
-        "JMX600894907063",
-        "JMX600904052796"
-      ]
-    },
-    {
-      "rem": 39,
-      "producto_id": 47820,
-      "producto": "camara",
-      "familia": "camara",
-      "unidades_pendientes": 51,
-      "estado": "entregado",
-      "entregado_en_dropi": "2026-07-22",
-      "dias_esperando_carga": 10,
-      "guias": [
-        "JMX600912608600",
-        "JMX600915941010",
-        "JMX600915992228",
-        "JMX600915931799",
-        "JMX600912380362",
-        "JMX600915344130",
-        "JMX600915269586"
-      ]
-    },
-    {
       "rem": 41,
       "producto_id": 47820,
       "producto": "camara",
@@ -82,7 +46,7 @@
       "unidades_pendientes": 53,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 5,
+      "dias_esperando_carga": 6,
       "guias": [
         "JMX600907805917",
         "JMX600910263362",
@@ -101,7 +65,7 @@
       "unidades_pendientes": 54,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 5,
+      "dias_esperando_carga": 6,
       "guias": [
         "JMX600921774780",
         "JMX600914770469",
@@ -120,22 +84,9 @@
       "unidades_pendientes": 30,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 5,
+      "dias_esperando_carga": 6,
       "guias": [
         "JMX600916435957"
-      ]
-    },
-    {
-      "rem": 44,
-      "producto_id": 47820,
-      "producto": "camara",
-      "familia": "camara",
-      "unidades_pendientes": 2,
-      "estado": "entregado",
-      "entregado_en_dropi": "2026-07-30",
-      "dias_esperando_carga": 2,
-      "guias": [
-        "JMX600928186530"
       ]
     },
     {
@@ -172,24 +123,6 @@
       "entregado_en_dropi": "2026-06-29"
     },
     {
-      "rem": 39,
-      "producto": "camara",
-      "enviadas": 51,
-      "cargadas": 0,
-      "faltan": 51,
-      "estado": "no_cargado",
-      "entregado_en_dropi": "2026-07-22"
-    },
-    {
-      "rem": 40,
-      "producto": "camara",
-      "enviadas": 50,
-      "cargadas": 0,
-      "faltan": 50,
-      "estado": "no_cargado",
-      "entregado_en_dropi": "2026-07-20"
-    },
-    {
       "rem": 41,
       "producto": "camara",
       "enviadas": 53,
@@ -220,8 +153,8 @@
   "totales_por_familia": {
     "camara": {
       "cargado": 2,
-      "pipeline": 212,
-      "total_disponible": 214
+      "pipeline": 109,
+      "total_disponible": 111
     },
     "dientes": {
       "cargado": 8,
