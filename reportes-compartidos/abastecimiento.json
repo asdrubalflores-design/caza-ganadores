@@ -1,8 +1,8 @@
 {
-  "generado": "2026-08-04T01:06:21",
+  "generado": "2026-08-05T01:04:18",
   "stock_export": {
-    "fecha": "2026-08-04T01:01:31",
-    "antiguedad_horas": 0.1
+    "fecha": "2026-08-05T01:01:28",
+    "antiguedad_horas": 0.0
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
   "cargado_en_dropi": [
@@ -16,7 +16,7 @@
       "producto_id": 44928,
       "nombre": "Dientes/Polvo (prov. A)",
       "familia": "dientes",
-      "unidades": 8
+      "unidades": 1
     },
     {
       "producto_id": 55146,
@@ -46,7 +46,7 @@
       "unidades_pendientes": 53,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 8,
+      "dias_esperando_carga": 9,
       "guias": [
         "JMX600907805917",
         "JMX600910263362",
@@ -65,7 +65,7 @@
       "unidades_pendientes": 54,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 8,
+      "dias_esperando_carga": 9,
       "guias": [
         "JMX600921774780",
         "JMX600914770469",
@@ -84,22 +84,66 @@
       "unidades_pendientes": 30,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 8,
+      "dias_esperando_carga": 9,
       "guias": [
         "JMX600916435957"
       ]
     },
     {
-      "rem": 33,
+      "rem": 45,
       "producto_id": 47820,
       "producto": "camara",
       "familia": "camara",
-      "unidades_pendientes": 2,
+      "unidades_pendientes": 48,
       "estado": "en_transito",
       "entregado_en_dropi": null,
       "dias_esperando_carga": null,
       "guias": [
-        "JMX600892104834"
+        "JMX600942383942",
+        "JMX600917470564",
+        "JMX600941838459",
+        "JMX600936310677",
+        "JMX600943425208",
+        "JMX600943166326"
+      ]
+    },
+    {
+      "rem": 46,
+      "producto_id": 47820,
+      "producto": "camara",
+      "familia": "camara",
+      "unidades_pendientes": 56,
+      "estado": "pendiente_guia",
+      "entregado_en_dropi": null,
+      "dias_esperando_carga": null,
+      "guias": [
+        "PENDIENTE"
+      ]
+    },
+    {
+      "rem": 47,
+      "producto_id": 47820,
+      "producto": "camara",
+      "familia": "camara",
+      "unidades_pendientes": 8,
+      "estado": "en_transito",
+      "entregado_en_dropi": null,
+      "dias_esperando_carga": null,
+      "guias": [
+        "JMX600941247098"
+      ]
+    },
+    {
+      "rem": 48,
+      "producto_id": 44928,
+      "producto": "polvo",
+      "familia": "dientes",
+      "unidades_pendientes": 69,
+      "estado": "en_transito",
+      "entregado_en_dropi": null,
+      "dias_esperando_carga": null,
+      "guias": [
+        "JMX600944986683"
       ]
     }
   ],
@@ -153,13 +197,13 @@
   "totales_por_familia": {
     "camara": {
       "cargado": 2,
-      "pipeline": 109,
-      "total_disponible": 111
+      "pipeline": 219,
+      "total_disponible": 221
     },
     "dientes": {
-      "cargado": 8,
-      "pipeline": 30,
-      "total_disponible": 38
+      "cargado": 1,
+      "pipeline": 99,
+      "total_disponible": 100
     },
     "funda": {
       "cargado": 4,
