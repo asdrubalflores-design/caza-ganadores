@@ -1,8 +1,8 @@
 {
-  "generado": "2026-08-05T01:04:18",
+  "generado": "2026-08-06T01:06:07",
   "stock_export": {
-    "fecha": "2026-08-05T01:01:28",
-    "antiguedad_horas": 0.0
+    "fecha": "2026-08-06T01:01:27",
+    "antiguedad_horas": 0.1
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
   "cargado_en_dropi": [
@@ -46,7 +46,7 @@
       "unidades_pendientes": 53,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 9,
+      "dias_esperando_carga": 10,
       "guias": [
         "JMX600907805917",
         "JMX600910263362",
@@ -65,7 +65,7 @@
       "unidades_pendientes": 54,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 9,
+      "dias_esperando_carga": 10,
       "guias": [
         "JMX600921774780",
         "JMX600914770469",
@@ -84,7 +84,7 @@
       "unidades_pendientes": 30,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 9,
+      "dias_esperando_carga": 10,
       "guias": [
         "JMX600916435957"
       ]
@@ -113,11 +113,17 @@
       "producto": "camara",
       "familia": "camara",
       "unidades_pendientes": 56,
-      "estado": "pendiente_guia",
+      "estado": "en_transito",
       "entregado_en_dropi": null,
       "dias_esperando_carga": null,
       "guias": [
-        "PENDIENTE"
+        "JMX600942551819",
+        "JMX600945064472",
+        "JMX600945561853",
+        "JMX600945247371",
+        "JMX600937544864",
+        "JMX600943747255",
+        "JMX600945455875"
       ]
     },
     {
@@ -144,6 +150,39 @@
       "dias_esperando_carga": null,
       "guias": [
         "JMX600944986683"
+      ]
+    },
+    {
+      "rem": 49,
+      "producto_id": 47820,
+      "producto": "camara",
+      "familia": "camara",
+      "unidades_pendientes": 64,
+      "estado": "en_transito",
+      "entregado_en_dropi": null,
+      "dias_esperando_carga": null,
+      "guias": [
+        "JMX600945205608",
+        "JMX600937830497",
+        "JMX600945802648",
+        "JMX600946147323",
+        "JMX600946863468",
+        "JMX600945484412",
+        "JMX600935985734",
+        "JMX600945184795"
+      ]
+    },
+    {
+      "rem": 50,
+      "producto_id": 44928,
+      "producto": "polvo",
+      "familia": "dientes",
+      "unidades_pendientes": 75,
+      "estado": "pendiente_guia",
+      "entregado_en_dropi": null,
+      "dias_esperando_carga": null,
+      "guias": [
+        "PENDIENTE"
       ]
     }
   ],
@@ -197,13 +236,13 @@
   "totales_por_familia": {
     "camara": {
       "cargado": 2,
-      "pipeline": 219,
-      "total_disponible": 221
+      "pipeline": 283,
+      "total_disponible": 285
     },
     "dientes": {
       "cargado": 1,
-      "pipeline": 99,
-      "total_disponible": 100
+      "pipeline": 174,
+      "total_disponible": 175
     },
     "funda": {
       "cargado": 4,
