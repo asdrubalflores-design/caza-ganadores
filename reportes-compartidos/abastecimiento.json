@@ -1,7 +1,7 @@
 {
-  "generado": "2026-08-07T01:08:37",
+  "generado": "2026-08-08T01:07:50",
   "stock_export": {
-    "fecha": "2026-08-07T01:01:27",
+    "fecha": "2026-08-08T01:01:36",
     "antiguedad_horas": 0.1
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
@@ -46,7 +46,7 @@
       "unidades_pendientes": 53,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 11,
+      "dias_esperando_carga": 12,
       "guias": [
         "JMX600907805917",
         "JMX600910263362",
@@ -65,7 +65,7 @@
       "unidades_pendientes": 54,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 11,
+      "dias_esperando_carga": 12,
       "guias": [
         "JMX600921774780",
         "JMX600914770469",
@@ -84,7 +84,7 @@
       "unidades_pendientes": 30,
       "estado": "entregado",
       "entregado_en_dropi": "2026-07-27",
-      "dias_esperando_carga": 11,
+      "dias_esperando_carga": 12,
       "guias": [
         "JMX600916435957"
       ]
@@ -95,9 +95,9 @@
       "producto": "camara",
       "familia": "camara",
       "unidades_pendientes": 48,
-      "estado": "en_transito",
-      "entregado_en_dropi": null,
-      "dias_esperando_carga": null,
+      "estado": "entregado",
+      "entregado_en_dropi": "2026-08-07",
+      "dias_esperando_carga": 1,
       "guias": [
         "JMX600942383942",
         "JMX600917470564",
