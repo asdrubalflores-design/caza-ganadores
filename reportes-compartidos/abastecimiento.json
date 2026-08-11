@@ -1,8 +1,8 @@
 {
-  "generado": "2026-08-10T01:12:42",
+  "generado": "2026-08-11T01:07:33",
   "stock_export": {
-    "fecha": "2026-08-10T01:01:39",
-    "antiguedad_horas": 0.2
+    "fecha": "2026-08-11T01:01:40",
+    "antiguedad_horas": 0.1
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
   "cargado_en_dropi": [
@@ -10,13 +10,13 @@
       "producto_id": 47820,
       "nombre": "Camara Triple SafeDrive",
       "familia": "camara",
-      "unidades": 2
+      "unidades": 3
     },
     {
       "producto_id": 44928,
       "nombre": "Dientes/Polvo (prov. A)",
       "familia": "dientes",
-      "unidades": 31
+      "unidades": 1
     },
     {
       "producto_id": 55146,
@@ -45,8 +45,8 @@
       "familia": "camara",
       "unidades_pendientes": 48,
       "estado": "entregado",
-      "entregado_en_dropi": "2026-08-07",
-      "dias_esperando_carga": 3,
+      "entregado_en_dropi": "2026-08-10",
+      "dias_esperando_carga": 1,
       "guias": [
         "JMX600942383942",
         "JMX600917470564",
@@ -62,9 +62,9 @@
       "producto": "camara",
       "familia": "camara",
       "unidades_pendientes": 56,
-      "estado": "en_transito",
-      "entregado_en_dropi": null,
-      "dias_esperando_carga": null,
+      "estado": "entregado",
+      "entregado_en_dropi": "2026-08-10",
+      "dias_esperando_carga": 1,
       "guias": [
         "JMX600942551819",
         "JMX600945064472",
@@ -81,9 +81,9 @@
       "producto": "camara",
       "familia": "camara",
       "unidades_pendientes": 8,
-      "estado": "en_transito",
-      "entregado_en_dropi": null,
-      "dias_esperando_carga": null,
+      "estado": "entregado",
+      "entregado_en_dropi": "2026-08-10",
+      "dias_esperando_carga": 1,
       "guias": [
         "JMX600941247098"
       ]
@@ -94,9 +94,9 @@
       "producto": "polvo",
       "familia": "dientes",
       "unidades_pendientes": 69,
-      "estado": "en_transito",
-      "entregado_en_dropi": null,
-      "dias_esperando_carga": null,
+      "estado": "entregado",
+      "entregado_en_dropi": "2026-08-10",
+      "dias_esperando_carga": 1,
       "guias": [
         "JMX600944986683"
       ]
@@ -107,9 +107,9 @@
       "producto": "camara",
       "familia": "camara",
       "unidades_pendientes": 64,
-      "estado": "en_transito",
-      "entregado_en_dropi": null,
-      "dias_esperando_carga": null,
+      "estado": "entregado",
+      "entregado_en_dropi": "2026-08-10",
+      "dias_esperando_carga": 1,
       "guias": [
         "JMX600945205608",
         "JMX600937830497",
@@ -127,12 +127,39 @@
       "producto": "polvo",
       "familia": "dientes",
       "unidades_pendientes": 75,
+      "estado": "entregado",
+      "entregado_en_dropi": "2026-08-10",
+      "dias_esperando_carga": 1,
+      "guias": [
+        "JMX600946041075"
+      ]
+    },
+    {
+      "rem": 51,
+      "producto_id": 47820,
+      "producto": "camara",
+      "familia": "camara",
+      "unidades_pendientes": 80,
       "estado": "en_transito",
       "entregado_en_dropi": null,
       "dias_esperando_carga": null,
       "guias": [
-        "JMX600946041075"
+        "JMX600955139459",
+        "JMX600955636575",
+        "JMX600953946677",
+        "JMX600955819919"
       ]
+    },
+    {
+      "rem": 52,
+      "producto_id": 44928,
+      "producto": "polvo",
+      "familia": "dientes",
+      "unidades_pendientes": 78,
+      "estado": "pendiente_guia",
+      "entregado_en_dropi": null,
+      "dias_esperando_carga": null,
+      "guias": []
     }
   ],
   "discrepancias": [
@@ -157,14 +184,14 @@
   ],
   "totales_por_familia": {
     "camara": {
-      "cargado": 2,
-      "pipeline": 176,
-      "total_disponible": 178
+      "cargado": 3,
+      "pipeline": 256,
+      "total_disponible": 259
     },
     "dientes": {
-      "cargado": 31,
-      "pipeline": 144,
-      "total_disponible": 175
+      "cargado": 1,
+      "pipeline": 222,
+      "total_disponible": 223
     },
     "funda": {
       "cargado": 4,
