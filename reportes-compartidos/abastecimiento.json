@@ -1,8 +1,8 @@
 {
-  "generado": "2026-08-11T01:07:33",
+  "generado": "2026-08-12T01:12:22",
   "stock_export": {
-    "fecha": "2026-08-11T01:01:40",
-    "antiguedad_horas": 0.1
+    "fecha": "2026-08-12T01:01:34",
+    "antiguedad_horas": 0.2
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
   "cargado_en_dropi": [
@@ -10,7 +10,7 @@
       "producto_id": 47820,
       "nombre": "Camara Triple SafeDrive",
       "familia": "camara",
-      "unidades": 3
+      "unidades": 2
     },
     {
       "producto_id": 44928,
@@ -46,7 +46,7 @@
       "unidades_pendientes": 48,
       "estado": "entregado",
       "entregado_en_dropi": "2026-08-10",
-      "dias_esperando_carga": 1,
+      "dias_esperando_carga": 2,
       "guias": [
         "JMX600942383942",
         "JMX600917470564",
@@ -64,7 +64,7 @@
       "unidades_pendientes": 56,
       "estado": "entregado",
       "entregado_en_dropi": "2026-08-10",
-      "dias_esperando_carga": 1,
+      "dias_esperando_carga": 2,
       "guias": [
         "JMX600942551819",
         "JMX600945064472",
@@ -83,7 +83,7 @@
       "unidades_pendientes": 8,
       "estado": "entregado",
       "entregado_en_dropi": "2026-08-10",
-      "dias_esperando_carga": 1,
+      "dias_esperando_carga": 2,
       "guias": [
         "JMX600941247098"
       ]
@@ -96,7 +96,7 @@
       "unidades_pendientes": 69,
       "estado": "entregado",
       "entregado_en_dropi": "2026-08-10",
-      "dias_esperando_carga": 1,
+      "dias_esperando_carga": 2,
       "guias": [
         "JMX600944986683"
       ]
@@ -109,7 +109,7 @@
       "unidades_pendientes": 64,
       "estado": "entregado",
       "entregado_en_dropi": "2026-08-10",
-      "dias_esperando_carga": 1,
+      "dias_esperando_carga": 2,
       "guias": [
         "JMX600945205608",
         "JMX600937830497",
@@ -129,7 +129,7 @@
       "unidades_pendientes": 75,
       "estado": "entregado",
       "entregado_en_dropi": "2026-08-10",
-      "dias_esperando_carga": 1,
+      "dias_esperando_carga": 2,
       "guias": [
         "JMX600946041075"
       ]
@@ -156,10 +156,12 @@
       "producto": "polvo",
       "familia": "dientes",
       "unidades_pendientes": 78,
-      "estado": "pendiente_guia",
+      "estado": "en_transito",
       "entregado_en_dropi": null,
       "dias_esperando_carga": null,
-      "guias": []
+      "guias": [
+        "JMX600954742697"
+      ]
     }
   ],
   "discrepancias": [
@@ -184,9 +186,9 @@
   ],
   "totales_por_familia": {
     "camara": {
-      "cargado": 3,
+      "cargado": 2,
       "pipeline": 256,
-      "total_disponible": 259
+      "total_disponible": 258
     },
     "dientes": {
       "cargado": 1,
