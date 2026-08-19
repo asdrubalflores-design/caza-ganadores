@@ -1,8 +1,8 @@
 {
-  "generado": "2026-08-18T01:18:32",
+  "generado": "2026-08-19T01:09:46",
   "stock_export": {
-    "fecha": "2026-08-18T01:01:35",
-    "antiguedad_horas": 0.3
+    "fecha": "2026-08-19T01:01:35",
+    "antiguedad_horas": 0.1
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
   "cargado_en_dropi": [
@@ -10,7 +10,7 @@
       "producto_id": 47820,
       "nombre": "Camara Triple SafeDrive",
       "familia": "camara",
-      "unidades": 123
+      "unidades": 116
     },
     {
       "producto_id": 44928,
@@ -34,7 +34,7 @@
       "producto_id": 48315,
       "nombre": "Mochila Antiasalto",
       "familia": "mochila",
-      "unidades": 0
+      "unidades": 1
     }
   ],
   "pipeline": [
@@ -46,7 +46,7 @@
       "unidades_pendientes": 99,
       "estado": "entregado",
       "entregado_en_dropi": "2026-08-17",
-      "dias_esperando_carga": 1,
+      "dias_esperando_carga": 2,
       "guias": [
         "JMX600960247850",
         "JMX600961757889",
@@ -84,9 +84,9 @@
   ],
   "totales_por_familia": {
     "camara": {
-      "cargado": 123,
+      "cargado": 116,
       "pipeline": 99,
-      "total_disponible": 222
+      "total_disponible": 215
     },
     "dientes": {
       "cargado": 133,
@@ -99,9 +99,9 @@
       "total_disponible": 4
     },
     "mochila": {
-      "cargado": 0,
+      "cargado": 1,
       "pipeline": 0,
-      "total_disponible": 0
+      "total_disponible": 1
     }
   }
 }
