@@ -1,8 +1,8 @@
 {
-  "generado": "2026-08-20T01:19:56",
+  "generado": "2026-08-21T01:08:11",
   "stock_export": {
-    "fecha": "2026-08-20T01:01:34",
-    "antiguedad_horas": 0.3
+    "fecha": "2026-08-21T01:01:33",
+    "antiguedad_horas": 0.1
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
   "cargado_en_dropi": [
@@ -10,7 +10,7 @@
       "producto_id": 47820,
       "nombre": "Camara Triple SafeDrive",
       "familia": "camara",
-      "unidades": 108
+      "unidades": 199
     },
     {
       "producto_id": 44928,
@@ -43,10 +43,10 @@
       "producto_id": 47820,
       "producto": "camara",
       "familia": "camara",
-      "unidades_pendientes": 99,
+      "unidades_pendientes": 1,
       "estado": "entregado",
       "entregado_en_dropi": "2026-08-17",
-      "dias_esperando_carga": 3,
+      "dias_esperando_carga": 4,
       "guias": [
         "JMX600960247850",
         "JMX600961757889",
@@ -84,9 +84,9 @@
   ],
   "totales_por_familia": {
     "camara": {
-      "cargado": 108,
-      "pipeline": 99,
-      "total_disponible": 207
+      "cargado": 199,
+      "pipeline": 1,
+      "total_disponible": 200
     },
     "dientes": {
       "cargado": 135,
