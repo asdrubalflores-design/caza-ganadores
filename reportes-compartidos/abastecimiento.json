@@ -1,8 +1,8 @@
 {
-  "generado": "2026-08-27T01:08:18",
+  "generado": "2026-08-28T01:12:59",
   "stock_export": {
     "fecha": "2026-08-27T01:01:28",
-    "antiguedad_horas": 0.1
+    "antiguedad_horas": 24.2
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
   "cargado_en_dropi": [
@@ -45,7 +45,7 @@
       "familia": "camara",
       "unidades_pendientes": 99,
       "estado": "entregado",
-      "entregado_en_dropi": "2026-08-26",
+      "entregado_en_dropi": "2026-08-27",
       "dias_esperando_carga": 1,
       "guias": [
         "JMX600975156821",
