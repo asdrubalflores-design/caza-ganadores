@@ -1,7 +1,7 @@
 {
-  "generado": "2026-09-10T01:15:54",
+  "generado": "2026-09-11T01:10:49",
   "stock_export": {
-    "fecha": "2026-09-10T01:01:53",
+    "fecha": "2026-09-11T01:01:49",
     "antiguedad_horas": 0.2
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
@@ -10,13 +10,13 @@
       "producto_id": 47820,
       "nombre": "Camara Triple SafeDrive",
       "familia": "camara",
-      "unidades": 98
+      "unidades": 89
     },
     {
       "producto_id": 44928,
       "nombre": "Dientes/Polvo (prov. A)",
       "familia": "dientes",
-      "unidades": 70
+      "unidades": 73
     },
     {
       "producto_id": 55146,
@@ -39,6 +39,19 @@
   ],
   "pipeline": [
     {
+      "rem": 56,
+      "producto_id": 44928,
+      "producto": "polvo",
+      "familia": "dientes",
+      "unidades_pendientes": 99,
+      "estado": "entregado",
+      "entregado_en_dropi": "2026-09-10",
+      "dias_esperando_carga": 1,
+      "guias": [
+        "JMX601003746122"
+      ]
+    },
+    {
       "rem": 55,
       "producto_id": 47820,
       "producto": "camara",
@@ -49,19 +62,6 @@
       "dias_esperando_carga": null,
       "guias": [
         "211251688711"
-      ]
-    },
-    {
-      "rem": 56,
-      "producto_id": 44928,
-      "producto": "polvo",
-      "familia": "dientes",
-      "unidades_pendientes": 99,
-      "estado": "en_transito",
-      "entregado_en_dropi": null,
-      "dias_esperando_carga": null,
-      "guias": [
-        "JMX601003746122"
       ]
     },
     {
@@ -81,10 +81,13 @@
       "producto": "camara",
       "familia": "camara",
       "unidades_pendientes": 99,
-      "estado": "pendiente_guia",
+      "estado": "en_transito",
       "entregado_en_dropi": null,
       "dias_esperando_carga": null,
-      "guias": []
+      "guias": [
+        "JMX601009824927",
+        "JMX601007372112"
+      ]
     }
   ],
   "discrepancias": [
@@ -118,14 +121,14 @@
   ],
   "totales_por_familia": {
     "camara": {
-      "cargado": 98,
+      "cargado": 89,
       "pipeline": 200,
-      "total_disponible": 298
+      "total_disponible": 289
     },
     "dientes": {
-      "cargado": 74,
+      "cargado": 77,
       "pipeline": 99,
-      "total_disponible": 173
+      "total_disponible": 176
     },
     "funda": {
       "cargado": 4,
