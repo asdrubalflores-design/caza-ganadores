@@ -1,8 +1,8 @@
 {
-  "generado": "2026-09-14T01:15:42",
+  "generado": "2026-09-15T01:10:18",
   "stock_export": {
-    "fecha": "2026-09-14T01:01:45",
-    "antiguedad_horas": 0.2
+    "fecha": "2026-09-15T01:01:46",
+    "antiguedad_horas": 0.1
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
   "cargado_en_dropi": [
@@ -10,13 +10,13 @@
       "producto_id": 47820,
       "nombre": "Camara Triple SafeDrive",
       "familia": "camara",
-      "unidades": 59
+      "unidades": 54
     },
     {
       "producto_id": 44928,
       "nombre": "Dientes/Polvo (prov. A)",
       "familia": "dientes",
-      "unidades": 58
+      "unidades": 55
     },
     {
       "producto_id": 55146,
@@ -46,7 +46,7 @@
       "unidades_pendientes": 99,
       "estado": "entregado",
       "entregado_en_dropi": "2026-09-10",
-      "dias_esperando_carga": 4,
+      "dias_esperando_carga": 5,
       "guias": [
         "JMX601003746122"
       ]
@@ -59,9 +59,23 @@
       "unidades_pendientes": 99,
       "estado": "entregado",
       "entregado_en_dropi": "2026-09-11",
-      "dias_esperando_carga": 3,
+      "dias_esperando_carga": 4,
       "guias": [
         "211251688711"
+      ]
+    },
+    {
+      "rem": 58,
+      "producto_id": 47820,
+      "producto": "camara",
+      "familia": "camara",
+      "unidades_pendientes": 99,
+      "estado": "entregado",
+      "entregado_en_dropi": "2026-09-14",
+      "dias_esperando_carga": 1,
+      "guias": [
+        "JMX601009824927",
+        "JMX601007372112"
       ]
     },
     {
@@ -74,20 +88,6 @@
       "entregado_en_dropi": null,
       "dias_esperando_carga": null,
       "guias": []
-    },
-    {
-      "rem": 58,
-      "producto_id": 47820,
-      "producto": "camara",
-      "familia": "camara",
-      "unidades_pendientes": 99,
-      "estado": "en_transito",
-      "entregado_en_dropi": null,
-      "dias_esperando_carga": null,
-      "guias": [
-        "JMX601009824927",
-        "JMX601007372112"
-      ]
     }
   ],
   "discrepancias": [
@@ -139,14 +139,14 @@
   ],
   "totales_por_familia": {
     "camara": {
-      "cargado": 59,
+      "cargado": 54,
       "pipeline": 200,
-      "total_disponible": 259
+      "total_disponible": 254
     },
     "dientes": {
-      "cargado": 62,
+      "cargado": 59,
       "pipeline": 99,
-      "total_disponible": 161
+      "total_disponible": 158
     },
     "funda": {
       "cargado": 4,
