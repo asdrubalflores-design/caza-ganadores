@@ -1,7 +1,7 @@
 {
-  "generado": "2026-09-16T01:16:32",
+  "generado": "2026-09-17T01:11:08",
   "stock_export": {
-    "fecha": "2026-09-16T01:01:46",
+    "fecha": "2026-09-17T01:01:50",
     "antiguedad_horas": 0.2
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
@@ -46,7 +46,7 @@
       "unidades_pendientes": 99,
       "estado": "entregado",
       "entregado_en_dropi": "2026-09-10",
-      "dias_esperando_carga": 6,
+      "dias_esperando_carga": 7,
       "guias": [
         "JMX601003746122"
       ]
@@ -59,7 +59,7 @@
       "unidades_pendientes": 99,
       "estado": "entregado",
       "entregado_en_dropi": "2026-09-11",
-      "dias_esperando_carga": 5,
+      "dias_esperando_carga": 6,
       "guias": [
         "211251688711"
       ]
@@ -72,7 +72,7 @@
       "unidades_pendientes": 99,
       "estado": "entregado",
       "entregado_en_dropi": "2026-09-14",
-      "dias_esperando_carga": 2,
+      "dias_esperando_carga": 3,
       "guias": [
         "JMX601009824927",
         "JMX601007372112"
@@ -135,6 +135,15 @@
       "faltan": 99,
       "estado": "no_cargado",
       "entregado_en_dropi": "2026-09-10"
+    },
+    {
+      "rem": 58,
+      "producto": "camara",
+      "enviadas": 99,
+      "cargadas": 0,
+      "faltan": 99,
+      "estado": "no_cargado",
+      "entregado_en_dropi": "2026-09-14"
     }
   ],
   "totales_por_familia": {
