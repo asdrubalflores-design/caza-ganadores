@@ -1,7 +1,7 @@
 {
-  "generado": "2026-09-17T01:11:08",
+  "generado": "2026-09-18T01:11:06",
   "stock_export": {
-    "fecha": "2026-09-17T01:01:50",
+    "fecha": "2026-09-18T01:01:47",
     "antiguedad_horas": 0.2
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
@@ -10,13 +10,13 @@
       "producto_id": 47820,
       "nombre": "Camara Triple SafeDrive",
       "familia": "camara",
-      "unidades": 39
+      "unidades": 33
     },
     {
       "producto_id": 44928,
       "nombre": "Dientes/Polvo (prov. A)",
       "familia": "dientes",
-      "unidades": 50
+      "unidades": 42
     },
     {
       "producto_id": 55146,
@@ -46,7 +46,7 @@
       "unidades_pendientes": 99,
       "estado": "entregado",
       "entregado_en_dropi": "2026-09-10",
-      "dias_esperando_carga": 7,
+      "dias_esperando_carga": 8,
       "guias": [
         "JMX601003746122"
       ]
@@ -59,7 +59,7 @@
       "unidades_pendientes": 99,
       "estado": "entregado",
       "entregado_en_dropi": "2026-09-11",
-      "dias_esperando_carga": 6,
+      "dias_esperando_carga": 7,
       "guias": [
         "211251688711"
       ]
@@ -72,7 +72,7 @@
       "unidades_pendientes": 99,
       "estado": "entregado",
       "entregado_en_dropi": "2026-09-14",
-      "dias_esperando_carga": 3,
+      "dias_esperando_carga": 4,
       "guias": [
         "JMX601009824927",
         "JMX601007372112"
@@ -148,14 +148,14 @@
   ],
   "totales_por_familia": {
     "camara": {
-      "cargado": 39,
+      "cargado": 33,
       "pipeline": 200,
-      "total_disponible": 239
+      "total_disponible": 233
     },
     "dientes": {
-      "cargado": 54,
+      "cargado": 46,
       "pipeline": 99,
-      "total_disponible": 153
+      "total_disponible": 145
     },
     "funda": {
       "cargado": 4,
