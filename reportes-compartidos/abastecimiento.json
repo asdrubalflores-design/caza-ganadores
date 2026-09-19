@@ -1,7 +1,7 @@
 {
-  "generado": "2026-09-18T01:11:06",
+  "generado": "2026-09-19T01:12:47",
   "stock_export": {
-    "fecha": "2026-09-18T01:01:47",
+    "fecha": "2026-09-19T01:02:48",
     "antiguedad_horas": 0.2
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
@@ -10,13 +10,13 @@
       "producto_id": 47820,
       "nombre": "Camara Triple SafeDrive",
       "familia": "camara",
-      "unidades": 33
+      "unidades": 129
     },
     {
       "producto_id": 44928,
       "nombre": "Dientes/Polvo (prov. A)",
       "familia": "dientes",
-      "unidades": 42
+      "unidades": 151
     },
     {
       "producto_id": 55146,
@@ -39,32 +39,6 @@
   ],
   "pipeline": [
     {
-      "rem": 56,
-      "producto_id": 44928,
-      "producto": "polvo",
-      "familia": "dientes",
-      "unidades_pendientes": 99,
-      "estado": "entregado",
-      "entregado_en_dropi": "2026-09-10",
-      "dias_esperando_carga": 8,
-      "guias": [
-        "JMX601003746122"
-      ]
-    },
-    {
-      "rem": 55,
-      "producto_id": 47820,
-      "producto": "camara",
-      "familia": "camara",
-      "unidades_pendientes": 99,
-      "estado": "entregado",
-      "entregado_en_dropi": "2026-09-11",
-      "dias_esperando_carga": 7,
-      "guias": [
-        "211251688711"
-      ]
-    },
-    {
       "rem": 58,
       "producto_id": 47820,
       "producto": "camara",
@@ -72,7 +46,7 @@
       "unidades_pendientes": 99,
       "estado": "entregado",
       "entregado_en_dropi": "2026-09-14",
-      "dias_esperando_carga": 4,
+      "dias_esperando_carga": 5,
       "guias": [
         "JMX601009824927",
         "JMX601007372112"
@@ -119,24 +93,6 @@
       "entregado_en_dropi": "2026-08-17"
     },
     {
-      "rem": 55,
-      "producto": "camara",
-      "enviadas": 99,
-      "cargadas": 0,
-      "faltan": 99,
-      "estado": "no_cargado",
-      "entregado_en_dropi": "2026-09-11"
-    },
-    {
-      "rem": 56,
-      "producto": "polvo",
-      "enviadas": 99,
-      "cargadas": 0,
-      "faltan": 99,
-      "estado": "no_cargado",
-      "entregado_en_dropi": "2026-09-10"
-    },
-    {
       "rem": 58,
       "producto": "camara",
       "enviadas": 99,
@@ -148,14 +104,14 @@
   ],
   "totales_por_familia": {
     "camara": {
-      "cargado": 33,
-      "pipeline": 200,
-      "total_disponible": 233
+      "cargado": 129,
+      "pipeline": 101,
+      "total_disponible": 230
     },
     "dientes": {
-      "cargado": 46,
-      "pipeline": 99,
-      "total_disponible": 145
+      "cargado": 155,
+      "pipeline": 0,
+      "total_disponible": 155
     },
     "funda": {
       "cargado": 4,
