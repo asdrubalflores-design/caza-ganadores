@@ -1,8 +1,8 @@
 {
-  "generado": "2026-11-18T01:22:40",
+  "generado": "2026-11-19T01:25:15",
   "stock_export": {
-    "fecha": "2026-11-18T01:02:07",
-    "antiguedad_horas": 0.3
+    "fecha": "2026-11-19T01:03:36",
+    "antiguedad_horas": 0.4
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
   "cargado_en_dropi": [
@@ -55,10 +55,12 @@
       "producto": "camara",
       "familia": "camara",
       "unidades_pendientes": 50,
-      "estado": "pendiente_guia",
+      "estado": "en_transito",
       "entregado_en_dropi": null,
       "dias_esperando_carga": null,
-      "guias": []
+      "guias": [
+        "JMX601116330692"
+      ]
     }
   ],
   "discrepancias": [
