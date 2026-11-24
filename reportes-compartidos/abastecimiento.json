@@ -1,8 +1,8 @@
 {
-  "generado": "2026-11-23T01:55:54",
+  "generado": "2026-11-24T01:26:14",
   "stock_export": {
-    "fecha": "2026-11-23T01:22:17",
-    "antiguedad_horas": 0.6
+    "fecha": "2026-11-24T01:03:16",
+    "antiguedad_horas": 0.4
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
   "cargado_en_dropi": [
@@ -10,13 +10,13 @@
       "producto_id": 47820,
       "nombre": "Camara Triple SafeDrive",
       "familia": "camara",
-      "unidades": 141
+      "unidades": 137
     },
     {
       "producto_id": 44928,
       "nombre": "Dientes/Polvo (prov. A)",
       "familia": "dientes",
-      "unidades": 112
+      "unidades": 118
     },
     {
       "producto_id": 55146,
@@ -77,10 +77,23 @@
     },
     {
       "rem": 62,
-      "producto_id": 98706,
+      "producto_id": 99168,
       "producto": "bocinas",
       "familia": null,
       "unidades_pendientes": 17,
+      "estado": "en_transito",
+      "entregado_en_dropi": null,
+      "dias_esperando_carga": null,
+      "guias": [
+        "JMX601134860875"
+      ]
+    },
+    {
+      "rem": 63,
+      "producto_id": 99168,
+      "producto": "bocinas",
+      "familia": null,
+      "unidades_pendientes": 99,
       "estado": "pendiente_guia",
       "entregado_en_dropi": null,
       "dias_esperando_carga": null,
@@ -118,14 +131,14 @@
   ],
   "totales_por_familia": {
     "camara": {
-      "cargado": 141,
+      "cargado": 137,
       "pipeline": 52,
-      "total_disponible": 193
+      "total_disponible": 189
     },
     "dientes": {
-      "cargado": 117,
+      "cargado": 123,
       "pipeline": 0,
-      "total_disponible": 117
+      "total_disponible": 123
     },
     "funda": {
       "cargado": 4,
@@ -145,7 +158,7 @@
       "bodega": "BODEGA DROPI (Pirules)",
       "saldo": 2,
       "otras": {
-        "Dropi Monterrey": 110
+        "Dropi Monterrey": 116
       }
     }
   ]
