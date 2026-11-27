@@ -1,7 +1,7 @@
 {
-  "generado": "2026-11-26T01:26:17",
+  "generado": "2026-11-27T01:26:02",
   "stock_export": {
-    "fecha": "2026-11-26T01:03:13",
+    "fecha": "2026-11-27T01:03:31",
     "antiguedad_horas": 0.4
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
@@ -10,13 +10,13 @@
       "producto_id": 47820,
       "nombre": "Camara Triple SafeDrive",
       "familia": "camara",
-      "unidades": 109
+      "unidades": 111
     },
     {
       "producto_id": 44928,
       "nombre": "Dientes/Polvo (prov. A)",
       "familia": "dientes",
-      "unidades": 120
+      "unidades": 130
     },
     {
       "producto_id": 55146,
@@ -98,6 +98,28 @@
       "entregado_en_dropi": null,
       "dias_esperando_carga": null,
       "guias": []
+    },
+    {
+      "rem": 64,
+      "producto_id": 99168,
+      "producto": "bocinas",
+      "familia": null,
+      "unidades_pendientes": 99,
+      "estado": "pendiente_guia",
+      "entregado_en_dropi": null,
+      "dias_esperando_carga": null,
+      "guias": []
+    },
+    {
+      "rem": 65,
+      "producto_id": 47820,
+      "producto": "camara",
+      "familia": "camara",
+      "unidades_pendientes": 99,
+      "estado": "pendiente_guia",
+      "entregado_en_dropi": null,
+      "dias_esperando_carga": null,
+      "guias": []
     }
   ],
   "discrepancias": [
@@ -131,14 +153,14 @@
   ],
   "totales_por_familia": {
     "camara": {
-      "cargado": 109,
-      "pipeline": 52,
-      "total_disponible": 161
+      "cargado": 111,
+      "pipeline": 151,
+      "total_disponible": 262
     },
     "dientes": {
-      "cargado": 125,
+      "cargado": 135,
       "pipeline": 0,
-      "total_disponible": 125
+      "total_disponible": 135
     },
     "funda": {
       "cargado": 4,
@@ -151,5 +173,15 @@
       "total_disponible": 1
     }
   },
-  "bodegas_chicas": []
+  "bodegas_chicas": [
+    {
+      "producto_id": 47820,
+      "variante": "",
+      "bodega": "BODEGA DROPI (Pirules)",
+      "saldo": 1,
+      "otras": {
+        "Dropi Monterrey": 110
+      }
+    }
+  ]
 }
