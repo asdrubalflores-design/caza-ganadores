@@ -1,7 +1,7 @@
 {
-  "generado": "2026-11-27T01:26:02",
+  "generado": "2026-11-28T01:26:40",
   "stock_export": {
-    "fecha": "2026-11-27T01:03:31",
+    "fecha": "2026-11-28T01:03:18",
     "antiguedad_horas": 0.4
   },
   "nota": "Backorder NO va aqui: se saca de Shopify (tags Dropi Sync Error) y la Mac lo consulta directo por su conector.",
@@ -10,7 +10,7 @@
       "producto_id": 47820,
       "nombre": "Camara Triple SafeDrive",
       "familia": "camara",
-      "unidades": 111
+      "unidades": 89
     },
     {
       "producto_id": 44928,
@@ -39,6 +39,47 @@
   ],
   "pipeline": [
     {
+      "rem": 61,
+      "producto_id": 98706,
+      "producto": "bocinas",
+      "familia": null,
+      "unidades_pendientes": 25,
+      "estado": "entregado",
+      "entregado_en_dropi": "2026-11-23",
+      "dias_esperando_carga": 5,
+      "guias": [
+        "MELI"
+      ]
+    },
+    {
+      "rem": 62,
+      "producto_id": 99168,
+      "producto": "bocinas",
+      "familia": null,
+      "unidades_pendientes": 17,
+      "estado": "entregado",
+      "entregado_en_dropi": "2026-11-23T16:36",
+      "dias_esperando_carga": 5,
+      "guias": [
+        "JMX601134860875"
+      ]
+    },
+    {
+      "rem": 63,
+      "producto_id": 99168,
+      "producto": "bocinas",
+      "familia": null,
+      "unidades_pendientes": 99,
+      "estado": "entregado",
+      "entregado_en_dropi": "2026-11-25T17:03",
+      "dias_esperando_carga": 3,
+      "guias": [
+        "JMX601138262720",
+        "JMX601139255184",
+        "JMX601135676349"
+      ]
+    },
+    {
       "rem": 57,
       "producto_id": 47820,
       "producto": "camara",
@@ -63,43 +104,6 @@
       ]
     },
     {
-      "rem": 61,
-      "producto_id": 98706,
-      "producto": "bocinas",
-      "familia": null,
-      "unidades_pendientes": 25,
-      "estado": "en_transito",
-      "entregado_en_dropi": null,
-      "dias_esperando_carga": null,
-      "guias": [
-        "MELI"
-      ]
-    },
-    {
-      "rem": 62,
-      "producto_id": 99168,
-      "producto": "bocinas",
-      "familia": null,
-      "unidades_pendientes": 17,
-      "estado": "en_transito",
-      "entregado_en_dropi": null,
-      "dias_esperando_carga": null,
-      "guias": [
-        "JMX601134860875"
-      ]
-    },
-    {
-      "rem": 63,
-      "producto_id": 99168,
-      "producto": "bocinas",
-      "familia": null,
-      "unidades_pendientes": 99,
-      "estado": "pendiente_guia",
-      "entregado_en_dropi": null,
-      "dias_esperando_carga": null,
-      "guias": []
-    },
-    {
       "rem": 64,
       "producto_id": 99168,
       "producto": "bocinas",
@@ -116,6 +120,19 @@
       "producto": "camara",
       "familia": "camara",
       "unidades_pendientes": 99,
+      "estado": "en_transito",
+      "entregado_en_dropi": null,
+      "dias_esperando_carga": null,
+      "guias": [
+        "JMX601145238533"
+      ]
+    },
+    {
+      "rem": 66,
+      "producto_id": 47820,
+      "producto": "camara",
+      "familia": "camara",
+      "unidades_pendientes": 71,
       "estado": "pendiente_guia",
       "entregado_en_dropi": null,
       "dias_esperando_carga": null,
@@ -149,13 +166,40 @@
       "faltan": 1,
       "estado": "faltan_unidades",
       "entregado_en_dropi": "2026-08-17"
+    },
+    {
+      "rem": 61,
+      "producto": "bocinas",
+      "enviadas": 25,
+      "cargadas": 0,
+      "faltan": 25,
+      "estado": "no_cargado",
+      "entregado_en_dropi": "2026-11-23"
+    },
+    {
+      "rem": 62,
+      "producto": "bocinas",
+      "enviadas": 17,
+      "cargadas": 0,
+      "faltan": 17,
+      "estado": "no_cargado",
+      "entregado_en_dropi": "2026-11-23T16:36"
+    },
+    {
+      "rem": 63,
+      "producto": "bocinas",
+      "enviadas": 99,
+      "cargadas": 0,
+      "faltan": 99,
+      "estado": "no_cargado",
+      "entregado_en_dropi": "2026-11-25T17:03"
     }
   ],
   "totales_por_familia": {
     "camara": {
-      "cargado": 111,
-      "pipeline": 151,
-      "total_disponible": 262
+      "cargado": 89,
+      "pipeline": 222,
+      "total_disponible": 311
     },
     "dientes": {
       "cargado": 135,
@@ -173,15 +217,5 @@
       "total_disponible": 1
     }
   },
-  "bodegas_chicas": [
-    {
-      "producto_id": 47820,
-      "variante": "",
-      "bodega": "BODEGA DROPI (Pirules)",
-      "saldo": 1,
-      "otras": {
-        "Dropi Monterrey": 110
-      }
-    }
-  ]
+  "bodegas_chicas": []
 }
